@@ -7,10 +7,7 @@ SynthRSF is a synthetic, photorealistic dataset designed for training and evalua
 - **Weather Types:** Rain, snow, uniform and non-uniform fog.
 - **Image Pairs:** Each noisy frame has a corresponding ground truth image.
 - **Use Cases:** Training weather denoising models.
-
-## Access
-The dataset is available on Google Drive: https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link
-
+ 
 ---
 
 # SynthRSF-MM Dataset
@@ -26,11 +23,14 @@ SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modali
 
 - - **Depth Maps and Annotations:** Accompanied by 16-bit depth maps and pixel-accurate annotations for various objects.
 - **Use Cases:** Ideal for object detection, semantic segmentation, and depth estimation in noisy or denoised images.
+ 
+---
 
-## Access
-For more details and access to the dataset, visit the Git repository: [SynthRSF-MM Repository](https://github.com/VCL3D/SynthRSF).
+# Access
+The dataset is available on Google Drive: https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link
 
 ---
+
 
 # Additional Information
 
