@@ -9,7 +9,7 @@ SynthRSF is a synthetic, photorealistic dataset designed for training and evalua
 - **Use Cases:** Training weather denoising models.
 
 ## Access
-The dataset is available on Google Drive: [SynthRSF Repository]([[https://github.com/VCL3D/SynthRSF](https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link)](https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link)).
+The dataset is available on Google Drive: https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link
 
 ---
 
