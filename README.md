@@ -20,8 +20,7 @@ SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modali
 - **Unique Scenes:** Manually populated with various 3D objects, including persons, vehicles, animals, etc.
 - **Annotations:** Equipped with YOLO-compatible bounding box .json files and pixel-accurate segmentation per object instance.
 - **Applications:** Suitable for tasks such as object detection, image segmentation, depth estimation, and more.
-
-- - **Depth Maps and Annotations:** Accompanied by 16-bit depth maps and pixel-accurate annotations for various objects.
+- **Depth Maps and Annotations:** Accompanied by 16-bit depth maps and pixel-accurate annotations for various objects.
 - **Use Cases:** Ideal for object detection, semantic segmentation, and depth estimation in noisy or denoised images.
  
 ---
