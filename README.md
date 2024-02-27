@@ -21,29 +21,29 @@
 <table>
   <tr>
     <td colspan="2">
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene3_rain_noisy_14122.jpeg" width="400px" />
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene16_rain_noisy_07084.jpeg" width="400px" /><br>
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene3_rain_noisy_14122.jpeg" width="350px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene16_rain_noisy_07084.jpeg" width="350px" /><br>
       <em>Rain</em>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene4_snow_2_noisy_00180.jpeg" width="400px" />
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene16_snow_noisy_11562.jpeg" width="400px" /><br>
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene4_snow_2_noisy_00180.jpeg" width="350px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene16_snow_noisy_11562.jpeg" width="350px" /><br>
       <em>Snow</em>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene14_fog_homogenous_noisy_00210.jpeg" width="400px" />
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene6_fog_homogenous_noisy_07080.jpeg" width="400px" /><br>
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene14_fog_homogenous_noisy_00210.jpeg" width="350px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene6_fog_homogenous_noisy_07080.jpeg" width="350px" /><br>
       <em>Uniform Fog</em>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene1_fog_heterogenous_noisy_00422.jpeg" width="400px" />
-      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene4_fog_heterogenous_noisy_00021.jpeg" width="400px" /><br>
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene1_fog_heterogenous_noisy_00422.jpeg" width="350px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene4_fog_heterogenous_noisy_00021.jpeg" width="350px" /><br>
       <em>Non-Uniform Fog</em>
     </td>
   </tr>
