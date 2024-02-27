@@ -1,12 +1,53 @@
 # SynthRSF Dataset
 
 ## Overview
-SynthRSF is a synthetic, photorealistic dataset designed for training and evaluating single-image denoising algorithms under adverse weather conditions like rain, snow, and haze. It includes 26,893 noisy images, each paired with a corresponding ground truth image.
+- SynthRSF (Synthetic with Rain, Snow, uniform and non-uniform Fog) dataset is introduced for **training and evaluating adverse weather image denoising models** as well as use in **object detection, semantic segmentation, and depth estimation** models.
+- SynthRSF addresses a gap in synthetic datasets for adverse weather conditions, contributing significantly more photorealistic data compared to common 2D layered noise datasets, as well as additional modalities. 
+- Applications include autonomous driving, surveillance, robotics, computer-assisted search-and-rescue.
 
-## Features
-- **Weather Types:** Rain, snow, uniform and non-uniform fog.
-- **Image Pairs:** Each noisy frame has a corresponding ground truth image.
-- **Use Cases:** Training weather denoising models.
+## Contents
+- **SynthRSF:** 
+  - 26,893 photorealistic image pairs (noisy and ground truth).
+  - 14 3D scenes set in various environmental (rural/urban), contextual (indoor/outdoor) and lighting conditions (day/night).
+  - Created using Unreal 5.2 engine.
+
+
+- **SynthRSF-MM expansion:**
+  - 13,800 additional pairs are accompanied by: 
+  - 16-bit depth maps.
+  - Pixel-accurate object annotations for 41 object classes.
+
+## SynthRSF Examples
+<table>
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene3_rain_noisy_14122.jpeg" width="450px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene16_rain_noisy_07084.jpeg" width="450px" /><br>
+      <em>Rain</em>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene4_snow_2_noisy_00180.jpeg" width="450px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene16_snow_noisy_11562.jpeg" width="450px" /><br>
+      <em>Snow</em>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene14_fog_homogenous_noisy_00210.jpeg" width="450px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene6_fog_homogenous_noisy_07080.jpeg" width="450px" /><br>
+      <em>Uniform Fog</em>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene1_fog_heterogenous_noisy_00422.jpeg" width="450px" />
+      <img src="https://github.com/VCL3D/SynthRSF/blob/main/figures/Scene4_fog_heterogenous_noisy_00021.jpeg" width="450px" /><br>
+      <em>Non-Uniform Fog</em>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -16,15 +57,7 @@ SynthRSF is a synthetic, photorealistic dataset designed for training and evalua
 ## Overview
 SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modalities for a comprehensive analysis in computer vision tasks. It contains 13,800 noisy images from 14 scenes with ground truth on additional modalities.
 
-## Features
-- **Multi-Modal Data:** Includes depth map, semantic segmentation, and bounding box pixel coordinates for 39 classes.
-- **Unique Scenes:** Manually populated with various 3D objects, including persons, vehicles, animals, etc.
-- **Annotations:** Equipped with YOLO-compatible bounding box .json files and pixel-accurate segmentation per object instance.
-- **Applications:** Suitable for tasks such as object detection, image segmentation, depth estimation, and more.
-- **Depth Maps and Annotations:** Accompanied by 16-bit depth maps and pixel-accurate annotations for various objects.
-- **Use Cases:** Ideal for object detection, semantic segmentation, and depth estimation in noisy or denoised images.
-
-
+## SynthRSF-MM Example
 
 
 <table>
@@ -64,10 +97,11 @@ SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modali
 *A sample scene from SynthRSF-MM, showing the ground truth (clear) scene, depth map, semantic segmentation stencil mask, and three noisy variants with different weather conditions. For each Ground truth image, there is one depth map, five pixel-level annotations and 8 noisy images per phenomenon.*
 
 
----
 
+
+---
   
-# Source 3D Scenes
+# SynthRSF Source 3D Scenes
 
 | No | Description        | Snow | Rain  | Fog (U) | Fog (NU) |
 |----|--------------------|------|-------|---------|----------|
@@ -88,16 +122,30 @@ SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modali
 |    | **Total**          | **7971** | **14828** | **1487**   | **1607**   |
 
 ---
+# SynthRSF-MM Source 3D Scenes
 
-
+| No | Description        | Ground Truth | Depth | Snow | Rain | Fog (NU) |
+|----|--------------------|--------------|-------|------|------|----------|
+| 1  | CitySample day     | 226          | 226   | 1808 | 1808 | 1808     |
+| 2  | CitySample night   | 158          | 158   | 1264 | 1264 | 1264     |
+| 3  | Archviz Interior   | 32           | 32    | -    | -    | 256      |
+| 4  | Factory            | 32           | 32    | -    | -    | 256      |
+| 5  | OfficeVol1         | 102          | 102   | -    | -    | 816      |
+| 6  | Bedroom Vol 1      | 22           | 22    | -    | -    | 176      |
+| 7  | Kitchenette        | 22           | 22    | -    | -    | 176      |
+| 8  | MegascansAA        | 20           | 20    | -    | -    | 160      |
+| 9  | MegascansSnow      | 20           | 20    | 160  | 160  | 160      |
+| 10 | Desert             | 17           | 17    | 136  | 136  | 136      |
+| 11 | MeerkatDemo        | 21           | 21    | 168  | 168  | 168      |
+| 12 | ICVFXProdTest      | 21           | 21    | 168  | 168  | 168      |
+| 13 | AngryMesh W1       | 21           | 21    | 168  | 168  | 168      |
+| 14 | AngryMesh W2       | 21           | 21    | 168  | 168  | 168      |
+|    | **Total**          | **825**      | **825**| **4040**|**4040**| **5720** |
+---
 
 # Access
 The dataset is available on Google Drive: https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link
 
 ---
 
-
-# Additional Information
  
-Both dataset parts were created using the Unreal 5.2 game engine, ensuring high photorealism and accurate simulation of weather conditions. They serve as valuable resources for developing and testing image restoration models under challenging weather conditions.
-
