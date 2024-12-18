@@ -1,5 +1,9 @@
 # SynthRSF Dataset
 
+## Paper
+[SynthRSF: A Novel Photorealistic Synthetic Dataset for AdverseWeather Condition Denoising](https://pdfs.semanticscholar.org/e4ed/0333fcd3f6a047762c563560e9bac64124b9.pdf)
+
+
 ## Overview
 - SynthRSF (Synthetic with Rain, Snow, uniform and non-uniform Fog) dataset is introduced for **training and evaluating adverse weather image denoising models** as well as use in **object detection, semantic segmentation, and depth estimation** models.
 - SynthRSF addresses a gap in synthetic datasets for adverse weather conditions, contributing significantly more photorealistic data compared to common 2D layered noise datasets, as well as additional modalities. 
