@@ -148,9 +148,11 @@ SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modali
 ---
 
 # Access
+Dataset published under CC license (CC BY 4.0), free to use for all purposes, and requiring attribution:
 The dataset is available on Google Drive: https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link
 
 Paper published under CC license (CC BY-NC-ND 4.0), free to use for non-commercial purposes, and requiring attribution:
+[SynthRSF: A Novel Photorealistic Synthetic Dataset for AdverseWeather Condition Denoising](https://pdfs.semanticscholar.org/e4ed/0333fcd3f6a047762c563560e9bac64124b9.pdf)
 
 Kanlis, A.; Vanian, V.; Karvarsamis, S.; Gkika, I.; Konstantoudakis, K. and Zarpalas, D. (2024). SynthRSF: A Novel Photorealistic Synthetic Dataset for Adverse Weather Condition Denoising.  In Proceedings of the 19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 3: VISAPP, ISBN 978-989-758-679-8, ISSN 2184-4321, pages 567-574.  DOI: 10.5220/0012397700003660  
 
