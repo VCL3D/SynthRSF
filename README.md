@@ -149,7 +149,15 @@ SynthRSF-MM is an expansion of the SynthRSF dataset, including additional modali
 
 # Access
 Dataset published under CC license (CC BY 4.0), free to use for all purposes, and requiring attribution:
-The dataset is available on Google Drive: https://drive.google.com/drive/folders/1UiXTYSIWbX2w62E-WDjxMyDGWvWDF0oX?usp=drive_link
+
+The dataset is available at Zenodo: 
+
+SynthRSF (Part 1): https://zenodo.org/records/14512391
+
+SynthRSF (Part 2): https://zenodo.org/records/14512543
+
+SynthRSF-MM Expansion: https://zenodo.org/records/14512632
+
 
 Paper published under CC license (CC BY-NC-ND 4.0), free to use for non-commercial purposes, and requiring attribution:
 [SynthRSF: A Novel Photorealistic Synthetic Dataset for AdverseWeather Condition Denoising](https://pdfs.semanticscholar.org/e4ed/0333fcd3f6a047762c563560e9bac64124b9.pdf)
